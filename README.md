@@ -58,3 +58,4 @@ Quelques bugs ont été remarqués, notamment lors de clics trop rapides. On pou
 - D’autres niveaux de difficulté ou bien un choix de thème
 - Une fonction permettant de mélanger les cartes à chaque début de jeu
 - Une fonction permettant de directement accéder au menu de sélection
+- Bouton permettant de recommencer la partie directement
