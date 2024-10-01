@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(0, 0, 0,0.2);
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    padding: 2% 5% 2% 5%;
+    background-size: cover;
+    background-image: linear-gradient(45deg, #b7e9e9, #81a1e7);
+    backdrop-filter: blur(10px);
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+	color: white;
+	-webkit-text-stroke: 1px #dfe6ec;
+	text-shadow: 0px 2px 4px rgb(151, 225, 255);
+}
+
+
+/*Menu de sélection */
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 5% 30% 5% 30%;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 10px 3px rgba(255, 255, 255, 0.5);
+    background-image:linear-gradient(45deg,rgb(255, 250, 226),rgba(244, 253, 233, 0.05)), url("images/background.jpg");
+    background-size: cover;
+}
+
+
+#joueur1 {
+    flex: 1 0 2rem;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#joueur2 {
+    flex: 1 0 2rem;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 6px;
+    text-align: center;
+
+}
+
+#difficulty {
+    flex: 1 0 2.5rem;
+    background-color: rgba(165, 171, 248, 0.87);
+    color:white;
+    border-radius: 6px;
+    border: 2px solid rgb(180, 217, 243);
+    font-size: 1em;
+    text-align: center;
+    background-image:linear-gradient(-90deg,rgba(132, 139, 241, 0.9),rgba(140, 121, 207, 0.5));
+
+
+}
+
+#button {
+    flex: 1 0 4rem;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(34, 28, 90);
+    border-radius: 60px;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+
+input:invalid {
+    color: rgb(86, 83, 100);
+}
+  
+  input:valid {
+    color: rgb(32, 62, 163);
+    font-weight: bolder;
+}
+
+
+
+
+
+.hover {
+    color: white;
+    background-color: rgba(148, 154, 230, 0.87);
+	-webkit-text-stroke: 1px #dfe6ec;
+	text-shadow: 0px 2px 4px rgb(151, 225, 255);}
+    
+
+/* zone de jeu où les tables apparaissent*/
+.zone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(33, 23, 51);
+}
+
+
+
+/* Table de jeu */
+.table9 {
+    width: 300px;
+}
+
+/* classe qui permet de retourner l'image face verso*/
+.verso {
+    width: 120px;
+    height:120px;
+    border-radius: 10px;
+}
+
+
+/*classe qui permet de retourner l'image face recto */
+.recto {
+    width: 120px;
+    height:120px;
+    border-radius: 10px;
+}
+
+/* classe qui met en valeur le joueur qui doit jouer */
+.turn {
+    color:rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px #dfe6ec;
+	text-shadow: 0px 2px 4px rgb(151, 225, 255);
+}
+
+/* Zone où apparait le nom des joueurs et score*/
+#zone_turn {
+    visibility: hidden;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    text-align: center;
+    border-radius: 45px;
+}
+
+
+
+
+
