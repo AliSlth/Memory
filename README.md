@@ -1,6 +1,6 @@
 # Projet Memory
 
-Ce projet est un jeu de Memory conçu pour être interactif et engageant. Les joueurs peuvent saisir leurs noms et choisir un niveau de difficulté avant de commencer à jouer.
+Petit jeu de memory où les joueurs peuvent saisir leurs noms et choisir un niveau de difficulté avant de commencer à jouer.
 Technologies utilisées: HTML, CSS, JavaScript, jQuery
 Les images sont libres de droit, obtenues sur le site https://pixabay.com/fr/
 
